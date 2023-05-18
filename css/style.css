@@ -36,14 +36,14 @@ ul
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
     padding: 0 30px;
-    left: 270px;
-    top: 0;
-    right: 0;
     opacity: 1;
-    z-index: 0;
+  
 
+}
+.main-content
+{
+    padding-left: 270px;
 }
 .padd-15
 {
@@ -118,7 +118,7 @@ ul
 .aside .logo a span
 {
     font-family: 'Clicker Script',cursive;
-    font-family: 40px;
+    font-size: 40px;
 }
 .aside .logo a::before
 {
@@ -283,4 +283,6 @@ h3.my-profession
 {
     height: 450px;
     /* width: 450px; */
+    margin: auto;
+    border-radius: 5px;
 }
