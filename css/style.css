@@ -618,3 +618,17 @@ h3.my-profession
     width: 100%;
     display: block;
 }
+/* contact */
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title
+{
+    color: var(--test-black-900);
+    text-align: center;
+    font-size: 15px;
+}
