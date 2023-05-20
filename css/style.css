@@ -41,6 +41,10 @@ ul
   
 
 }
+.hidden 
+{
+    display: none !important ;
+}
 .main-content
 {
     padding-left: 270px;
@@ -56,7 +60,22 @@ ul
     width: 100%;
     margin: auto;
 }
-
+.section .container
+{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.section-title
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section-title h2 
+{
+    font-size: 40px;
+    color: var(--test-black-900);
+    font-weight: 700;
+}
 .row
 {
     display: flex;
