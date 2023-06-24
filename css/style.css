@@ -5,15 +5,22 @@
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
-    --test-black-900:#302e4d;
-    --test-black-700:#504e70;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+body.dark
+{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
 }
 body
 {
-    margin: 0;
-    padding: 0;
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins' sans-serif;
 }
 *
 {
@@ -74,7 +81,7 @@ ul
 .section-title h2 
 {
     font-size: 40px;
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     font-weight: 700;
     position: relative;
 }
@@ -153,7 +160,7 @@ ul
 }
 .aside .logo a 
 {
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
     font-size: 30px;
@@ -245,7 +252,7 @@ ul
     font-size: 16px;
     font-weight: 600;
     display: block;
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     padding: 5px 15px;
     border-bottom: 1px solid var(--bg-black-50);
 }
@@ -294,7 +301,7 @@ h3.my-profession
 {
     margin-bottom: 70px;
     font-size: 20px;
-    color: var(--test-black-700);
+    color: var(--text-black-700);
 }
 .home .home-img 
 {
@@ -349,7 +356,7 @@ h3.my-profession
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
-    color: var(--test-black-900);
+    color: var(--text-black-900);
 }
 .about .about-content .about-text h3 span
 {
@@ -359,7 +366,7 @@ h3.my-profession
 {
     font-size: 16px;
     line-height: 25px;
-    color: var(--test-black-700);
+    color: var(--text-black-700);
 }
 .about .about-content .personal-info
 {
@@ -378,7 +385,7 @@ h3.my-profession
     font-weight: 600;
     padding: 10px 0;
     font-size: 16px;
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
 .about .about-content .personal-info .info-item p span
@@ -415,7 +422,7 @@ h3.my-profession
     line-height: 40px;
     font-weight: 600;
     font-size: 16px;
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     text-transform: capitalize;
 }
 .about .about-content .skills .skills-item .progress
@@ -628,7 +635,7 @@ h3.my-profession
 }
 .contact-sub-title
 {
-    color: var(--test-black-900);
+    color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
     margin-bottom: 60px;
@@ -657,7 +664,7 @@ h3.my-profession
 {
     font-size: 16px;
     line-height: 25px;
-    color: var(--test-black-700);
+    color: var(--text-black-700);
     font-weight: 400;
 }
 .contact .contact-form
@@ -688,7 +695,7 @@ h3.my-profession
     border: 1px solid var(--bg-black-50);
     padding: 10px 25px;
     font-size: 16px;
-    color: var(--test-black-700);
+    color: var(--text-black-700);
     transition: all 0.3s ease;
 }
 .contact .contact-form .form-item .form-control:focus
