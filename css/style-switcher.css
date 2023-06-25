@@ -14,7 +14,7 @@
 }
 .style-switcher.open
 {
-    transform: translateX(-25px);
+    transform: translateX(-15px);
 }
 .style-switcher .s-icon
 {

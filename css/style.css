@@ -354,6 +354,7 @@ h3.my-profession
     max-width: 40%;
     position: relative;
     text-align: center;
+    /* padding-bottom: 20%; */
 }
 .home .home-img::after
 {
@@ -362,7 +363,7 @@ h3.my-profession
     height: 80px;
     width: 80px;
     right: 10px;
-    bottom: -20px;
+    bottom: 93px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
 }
@@ -379,10 +380,11 @@ h3.my-profession
 }
 .home .home-img img
 {
-    height: 450px;
+    height: 475px;
     /* width: 450px; */
-    margin: auto;
+    margin-bo: auto;
     border-radius: 5px;
+    padding-bottom: 40px;
 }
 /* About*/
 .about .about-content
@@ -798,7 +800,7 @@ h3.my-profession
         margin-left: 0;
     }
 }
-@media (max-width:991px)
+@media (max-width:991px) 
 {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -816,7 +818,17 @@ h3.my-profession
     {
         display: none;
     }
+    
 }
+
+@media (max-width:1025px)
+{
+    .home .home-img::after
+    {
+        bottom: 170px;
+    }
+}
+
 @media (max-width:767px)
 {
     .contact .contact-form .col-6,
